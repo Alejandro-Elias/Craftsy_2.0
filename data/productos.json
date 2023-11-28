@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "Samsumg S10",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-01.jpg"
+    },
+    {
+        "id" : 2,
+        "nombre" : "Motorola X-Play",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-02.jpg"
+    },
+    {
+        "id" : 3,
+        "nombre" : "Nokia 1100",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-03.jpg"
+    },
+    {
+        "id" : 4,
+        "nombre" : "Iphone 11",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-01.jpg"
+    },
+    {
+        "id" : 5,
+        "nombre" : "Blackberry Q",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-02.jpg"
+    },
+    {
+        "id" : 6,
+        "nombre" : "Philips",
+        "descripcion" : "lorem ipsum dolor amet sit",
+        "imagen" : "img-phone-03.jpg"
+    }
+]

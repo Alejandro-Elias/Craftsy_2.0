@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('./partials/head') %>
+<body>
+    <%- include('./partials/header') %>
+<main class="container">
+    <div class="row">
+        <div class="col-12 col-md-10 col-lg-8 my-5 mx-auto">
+            <div class="card">
+                <img src="/images/<%= imagen %>" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><%= nombre %></h5>
+                  <p class="card-text"><%= descripcion %></p>
+                  <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</main>
+
+    <%- include('./partials/scripts') %>
+</body>
+</html>

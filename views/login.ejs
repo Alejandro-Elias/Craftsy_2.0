@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head') %>
+
+
+<body class="login">
+    <%- include('./partials/header') %>
+
+    <main class="login__main">
+        <section class="box__card box__card--simple">
+            <div class="box__card--title">
+                <h3>Login</h3>
+                <hr>
+            </div>
+            <form action="/users/profile" class="form">
+               
+                <div class="form__box">
+                    <label class="form__label" for="email">Email</label>
+                    <input class="form__input" id="email" type="email" placeholder="correo@correo.com" name="email">
+                </div>
+                <div class="form__box">
+                    <label class="form__label" for="password">Contraseña</label>
+                    <div class="form__box--position">
+                        <input class="form__input" id="password" type="password" placeholder="tu contraseña" name="password"><span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+
+                <div class="form__box">
+                    <p>¿No estás registrado? <a class="link" href="/users/register">Registrate</a></p>
+                </div>
+                <div class="form__box">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Recordame</label>
+                </div>
+                <div class="box__end">
+                    <a href="/" class="button button__secondary">Cancelar</a>
+                    <button class="button button__primary" type="submit">Enviar</button>
+                </div>
+            </form>
+          </section>
+    </main>
+</body>
+
+</html>

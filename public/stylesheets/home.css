@@ -1,0 +1,129 @@
+/* MOBILE */
+
+/* section products */
+.home__main__section {
+    width: 100%;
+    padding: 20px;
+}
+
+.home__main__section__article {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.home__main__section__article img {
+    width: 100%;
+}
+
+.home__main__section__article h4 {
+    margin: 20px 0;
+    font-size: 1.4rem;
+}
+
+.home__main__section__article p {
+    line-height: 1.3rem;
+}
+
+/* aside tutoriales */
+
+.home__main__aside {
+    width: 100%;
+    padding: 20px;
+}
+
+.home__main__aside h2 {
+    background-color: #ffffff;
+    padding: 10px;
+    font-weight: 900;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+}
+
+.home__main__aside__section--tutoriales {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 14px;
+}
+
+.home__main__aside__section__article {
+    background-color: #ffffff;
+    border: 1px solid silver;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    width: 100%;
+}
+
+
+.home__main__aside__section--publicidad {
+    padding: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home__main__aside__section--publicidad img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .home__main__section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home__main__section__article {
+        width: 50%;
+    }
+
+    .home__main__aside__section--tutoriales {     
+        justify-content: space-between;
+    }
+
+    .home__main__aside__section__article {
+        width: 49%;
+        border-bottom: 1px solid silver;
+    }
+
+    .home__main__aside__section--publicidad{
+        flex-direction: row;
+    }
+
+}
+
+@media (min-width: 1140px) {
+    .home__main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home__main__section {
+       width: 70%;
+    }
+
+    .home__main__aside {
+        width: 30%;
+    }
+
+    .home__main__aside__section--tutoriales {
+      flex-direction: column;
+    }
+
+    .home__main__aside__section__article {
+        width: 100%;
+    }
+
+    .home__main__aside__section--publicidad{
+        flex-direction: column;
+    }
+
+    .home__main__section-sales{ 
+        width: 100%;
+        overflow: hidden;
+    }
+   
+}

@@ -1,0 +1,16 @@
+.button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+.button__primary {
+    background-color: var(--colorRojo);
+    color: var(--colorBlanco);
+}
+
+.button__secondary {
+    background-color: var(--colorGris);
+    color: var(--colorBlanco);
+}

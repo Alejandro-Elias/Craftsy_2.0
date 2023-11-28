@@ -1,0 +1,27 @@
+
+    [
+        {
+            "id" : 1,
+            "nombre" : "Reparación",
+            "descripcion" : "lorem ipsum dolor amet sit",
+            "imagen" : "aside-01.jpg"
+        },
+        {
+            "id" : 2,
+            "nombre" : "Configuración",
+            "descripcion" : "lorem ipsum dolor amet sit",
+            "imagen" : "aside-02.jpg"
+        },
+        {
+            "id" : 3,
+            "nombre" : "Instalación",
+            "descripcion" : "lorem ipsum dolor amet sit",
+            "imagen" : "aside-03.jpg"
+        },
+        {
+            "id" : 4,
+            "nombre" : "Recuperación",
+            "descripcion" : "lorem ipsum dolor amet sit",
+            "imagen" : "aside-01.jpg"
+        }
+    ]
